@@ -6,7 +6,7 @@ LIMIT 10;
 SELECT COUNT(*) AS total_rows
 FROM bigquery-public-data.cms_medicare.outpatient_charges_2015;
 
--- top 10 services by number of claims
+-- top 10 services by Total Revenue
 SELECT apc,
       ROUND(SAFE_DIVIDE(
           SUM(outpatient_services * average_total_payments),
@@ -80,4 +80,5 @@ SELECT t.provider_state,
 FROM total_medicare_spending AS t
 JOIN acs_state AS a
 ON t.provider_state = a.state
+
 ORDER BY 5 DESC;
