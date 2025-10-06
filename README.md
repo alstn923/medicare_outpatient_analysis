@@ -52,7 +52,7 @@ SELECT COUNT(*) AS total_rows
 FROM `bigquery-public-data.cms_medicare.outpatient_charges_2015`;
 ```
 
-### 2. Top 10 Services by Number of Claims
+### 2. Top 10 Services by Total Revenue
 ```sql
 SELECT
   apc,
