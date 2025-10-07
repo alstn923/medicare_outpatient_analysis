@@ -160,4 +160,17 @@ ORDER BY proxy_payments_to_income_pct DESC;
 - States with lower ratios → **smaller relative footprint**, but may face **accessibility challenges**  
 - Large states by population (e.g., California, Texas, New York) contribute the **highest total dollar spending**, but their ratios are lower due to bigger economic bases.  
 - Smaller or rural states can show a **disproportionately high ratio**, even if their absolute spending is modest.  
-- The ratio metric highlights not just spending, but the **relative strain of healthcare costs** on a state’s economy.  
+- The ratio metric highlights not just spending, but the **relative strain of healthcare costs** on a state’s economy.
+
+---
+
+## 📊 Visualizations
+
+### 1. Top 10 APCs by Claims
+![APC Chart](images/Top_10_APC.png)
+
+### 2. Proxy Medicare Spending by State
+![State Spending](images/Medicare_spending_by_state.png)
+
+### 3. Revenue-to-Income Percentage by State
+![State Ratio](images/Revenue_to_income.png)
