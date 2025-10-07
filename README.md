@@ -29,7 +29,10 @@ To approximate Medicare-only payments, a **0.8 multiplier (80%)** is applied as 
 
 2. **Top Outpatient Services (APC codes)**  
    - Identified top 10 services by claim volume  
-   - Calculated weighted average payment per claim  
+   - Calculated weighted average payment per claim
+
+**Note:**  
+APC stands for *Ambulatory Payment Classification*, the system Medicare uses to group and reimburse outpatient hospital services. Each APC corresponds to a category of services with similar clinical and cost characteristics.
 
 3. **State-Level Proxy Medicare Spending**  
    - Computed weighted averages and proxy Medicare payments  
