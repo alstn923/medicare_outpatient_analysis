@@ -158,7 +158,7 @@ JOIN acs_state s
 ORDER BY proxy_payments_to_income_pct DESC;
 ```
 
-## 📊 Key Insights
+## Key Insights
 
 | State       | Proxy Payments-to-Income Ratio | Notes |
 |-------------|--------------------------------|-------|
@@ -173,7 +173,7 @@ ORDER BY proxy_payments_to_income_pct DESC;
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 ### 1. Top 10 APCs by Claims
 ![APC Chart](images/Top_10_APC.png)
