@@ -21,7 +21,7 @@ The goal is to:
 `average_total_payments` includes Medicare payments **plus** patient cost-sharing (deductible/copay).  
 To approximate Medicare-only payments, a **0.8 multiplier (80%)** is applied as a proxy assumption.
 
-**Note:**  
+**Note:**
 The Census ACS dataset uses `geo_id` values, which are state-level FIPS codes.  
 For this project, the two-digit FIPS codes were mapped to standard two-letter state abbreviations (e.g., `01` → `AL`, `06` → `CA`).  
 This step ensured consistency when joining the ACS dataset with the Medicare outpatient spending data by state.
