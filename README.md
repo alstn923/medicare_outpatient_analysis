@@ -174,3 +174,24 @@ ORDER BY proxy_payments_to_income_pct DESC;
 
 ### 3. Revenue-to-Income Percentage by State
 ![State Ratio](images/Revenue_to_income.png)
+
+## ⚠️ Limitations
+
+- **Incomplete State Coverage**  
+  - Certain states (e.g., Maryland) are excluded from the dataset.  
+  - Maryland is unique in operating under an **all-payer hospital rate-setting system**, where hospital reimbursement rates are regulated at the state level.  
+  - Because of this structure, Maryland data is not included in the CMS Medicare Outpatient Charges dataset, and the analysis does not represent 100% of U.S. states.  
+
+- **Proxy Calculation**  
+  - The `average_total_payments` column includes not only Medicare reimbursements but also **copayments** and **deductibles**.  
+  - This project assumes patient responsibility accounts for ~20%, and applies a proxy factor (0.8) to approximate Medicare-only spending. Actual values may differ.  
+
+- **Time Scope**  
+  - The dataset reflects **2015 data**. Demographics, cost structures, and Medicare reimbursement policies may have shifted significantly since then.  
+  - For current relevance, the analysis should be replicated with more recent datasets.  
+
+- **GDP Proxy**  
+  - State-level economic comparison uses **population × income per capita** as a proxy for GDP.  
+  - While this provides a rough benchmark, it is not equivalent to official GDP figures from the BEA (Bureau of Economic Analysis).  
+  - Insights should be interpreted as **relative approximations** rather than precise economic ratios.  
+
