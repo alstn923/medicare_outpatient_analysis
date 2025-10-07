@@ -184,7 +184,7 @@ ORDER BY proxy_payments_to_income_pct DESC;
 ### 3. Revenue-to-Income Percentage by State
 ![State Ratio](images/Revenue_to_income.png)
 
-## ⚠️ Limitations
+## Limitations
 
 - **Incomplete State Coverage**  
   - Certain states (e.g., Maryland) are excluded from the dataset.  
