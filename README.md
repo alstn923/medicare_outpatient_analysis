@@ -1,7 +1,7 @@
 # SQL Project: Medicare Outpatient Payments Analysis (2015)
 
 ## Overview
-This project analyzes the **2015 CMS Medicare Outpatient Charges dataset** using **SQL (BigQuery)**.  
+This project analyzes the **2015 CMS Medicare Outpatient Charges dataset** using **SQL (BigQuery)** and **Power BI**.  
 The goal is to:
 - Explore outpatient service utilization patterns
 - Compare provider payments across states
