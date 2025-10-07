@@ -17,8 +17,14 @@ The goal is to:
 - **U.S. Census Bureau ACS (2015)**  
   - Table: `bigquery-public-data.census_bureau_acs.state_2015_1yr`  
 
-Note: `average_total_payments` includes Medicare payments **plus** patient cost-sharing (deductible/copay).  
+**Note:**
+`average_total_payments` includes Medicare payments **plus** patient cost-sharing (deductible/copay).  
 To approximate Medicare-only payments, a **0.8 multiplier (80%)** is applied as a proxy assumption.
+
+**Note:**  
+The Census ACS dataset uses `geo_id` values, which are state-level FIPS codes.  
+For this project, the two-digit FIPS codes were mapped to standard two-letter state abbreviations (e.g., `01` → `AL`, `06` → `CA`).  
+This step ensured consistency when joining the ACS dataset with the Medicare outpatient spending data by state.
 
 ---
 
